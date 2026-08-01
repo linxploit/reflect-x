@@ -9,7 +9,7 @@
 ╚═╝  ╚═╝╚══════╝╚═╝     ╚══════╝╚══════╝ ╚═════╝   ╚═╝   ╚═╝  ╚═╝
 ```
 
-### ✦ Safe XSS Reflection Analyzer ✦
+### Safe XSS Reflection Analyzer 
 
 **No payloads fire. No JavaScript executes. Signal only.**
 
