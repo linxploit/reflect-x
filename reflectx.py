@@ -52,10 +52,6 @@ PORTFOLIO = "https://linxploit.com/founder"
 
 requests.packages.urllib3.disable_warnings()  # noqa
 
-# --------------------------------------------------------------------------- #
-#  Palette / gradient helpers
-# --------------------------------------------------------------------------- #
-
 GRADIENT = [
     "\033[38;5;51m",   # cyan
     "\033[38;5;45m",
@@ -239,10 +235,6 @@ def progress_bar(current: int, total: int, label: str = "", width: int = 32):
         print()
 
 
-# --------------------------------------------------------------------------- #
-#  Core scan logic
-# --------------------------------------------------------------------------- #
-
 RISK_LEVELS = {
     "RAW": ("HIGH", C_BAD),
     "PARTIAL": ("MEDIUM", C_WARN),
@@ -383,10 +375,6 @@ def scan_target(
     return result
 
 
-# --------------------------------------------------------------------------- #
-#  Reporting
-# --------------------------------------------------------------------------- #
-
 def print_result(result: ScanResult, verbose: bool):
     label, color = result.risk
     icon = {
@@ -471,10 +459,6 @@ def save_csv(results: List[ScanResult], path: str):
             row.pop("snippet", None)
             writer.writerow({k: row[k] for k in fields})
 
-
-# --------------------------------------------------------------------------- #
-#  CLI
-# --------------------------------------------------------------------------- #
 
 def parse_header_list(items: Optional[List[str]]) -> dict:
     headers = {}
