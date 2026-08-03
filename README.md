@@ -92,8 +92,8 @@ This is a **triage** tool: it helps you quickly narrow down which parameters, ac
 ## 📦 Installation
 
 ```bash
-git clone https://github.com/linxploit/reflectx.git
-cd reflectx
+git clone https://github.com/linxploit/reflect-x.git
+cd reflect-x
 pip install -r requirements.txt
 ```
 
