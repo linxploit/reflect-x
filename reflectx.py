@@ -21,7 +21,7 @@ DISCLAIMER:
     Only use this tool against targets you own or are explicitly
     authorized to test. You are solely responsible for how you use it.
 """
-
+2wQD
 import argparse
 import concurrent.futures
 import csv
